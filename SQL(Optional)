@@ -1,0 +1,22 @@
+SQL Codes For Project-->
+
+
+create table customer(
+id int8 primary key,
+name varchar(30) not null,
+email varchar(30) not null);
+
+drop table customer;
+
+select * from customer;
+
+show tables;
+
+create table student(
+id int primary key auto_increment,
+fname varchar(20),
+lname varchar(20),
+score int
+);
+
+select * from student;
